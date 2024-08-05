@@ -25,7 +25,7 @@
       "BOT_TOKEN": {
          "description": "Your bot token. Get one from @BotFather",
          "required": true,
-         "value": "7367511450:AAFb78v-duwLXS0IZraAU33CEPxdg5SVCs0"
+         "value": ""
       },
       
       "LOGGER_ID": {
@@ -78,7 +78,7 @@
       "CHANNEL_ID": {
          "description": "Your Channel Id.. Where bot will Send.. all Ur Uploaded characters with details",
          "required": true,
-         "value": "-1002220612751" 
+         "value": "-1002009280180" 
       },
       "API_HASH": {
          "description": "Your Api HASH... Don't know what is this.. then searchon Google",
