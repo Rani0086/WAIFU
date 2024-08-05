@@ -57,7 +57,7 @@
      "MONGO_URL": {
          "description": "Add a Mongodb url to store data",
          "required": true,
-         "value": "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-BOT@cluster0.c51o3a9.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
       },
       "IMG_URL": {
          "description": "image Urls.. For start.. Harem.. and top.. etc commands",
