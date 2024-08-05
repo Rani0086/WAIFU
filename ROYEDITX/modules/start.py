@@ -60,7 +60,7 @@ async def start(update: Update, context: CallbackContext) -> None:
                """
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/avishaxbot?startgroup=new')],
-            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/@Animefangilrl'),
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/Animefangilrl'),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/the_friendz')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
         ]
