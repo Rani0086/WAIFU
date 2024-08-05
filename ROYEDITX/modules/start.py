@@ -56,13 +56,14 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『waife x ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/Collectionwaife_bot?startgroup=new')],
             [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/Animefangilrl'),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://lolpagalokigc)],
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/lolpagalokigc')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
+            [InlineKeyboardButton("repo", url=f'https://t.me/Xeno_Kakarot')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(AVISHA)
@@ -114,8 +115,9 @@ async def button(update: Update, context: CallbackContext) -> None:
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/{Collectionwaife_bot}?startgroup=new')],
             [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/Animefangilrl'),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{lolpagalokigc}')],
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/lolpagalokigc')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
+            [InlineKeyboardButton("repo", url=f'https://t.me/Xeno_Kakarot')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         
